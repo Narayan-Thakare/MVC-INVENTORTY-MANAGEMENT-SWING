@@ -26,15 +26,15 @@ public static void del() {
 	
 	SwingUtilities.invokeLater(() -> {
 
-		JFrame frame5 = new JFrame("SEARCH DATA");
-		frame5.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		JFrame frame5 = new JFrame("DELETE PRODUCT");
+	//	frame5.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	//	frame6.setSize(500, 800);
-		frame5.setBounds(500, 200, 500, 600);
+		frame5.setBounds(450, 400, 950, 600);
 		JPanel panel = new JPanel() {
 			@Override
 			protected void paintComponent(Graphics g) {
 				super.paintComponent(g);
-				Image image = new ImageIcon("D:\\HTML\\for eclipsie.jpeg").getImage();
+				Image image = new ImageIcon("C:\\Users\\ASUS\\OneDrive\\Pictures\\code234566.jpg").getImage();
 				g.drawImage(image, 0, 0, getWidth(), getHeight(), this);
 
 			}
@@ -49,15 +49,20 @@ public static void del() {
 
 	//	JFrame frame5 = new JFrame("DELETE PRODUCT");
 
-		JLabel l1 = new JLabel("Product Name");
-		l1.setFont(new Font("Algerian", Font.BOLD, 17));
-		l1.setBounds(60, 50, 200, 40);
+		JLabel l1 = new JLabel("PRODUCT NAME");
+		l1.setFont(new Font("Algerian", Font.BOLD, 25));
+		l1.setForeground(Color.black);
+		l1.setBounds(350, 50, 200, 40);
 		JTextField t1 = new JTextField();
+
+		
 		t1.setFont(new Font("Algerian", Font.BOLD, 17));
-		t1.setBounds(50, 90, 300, 40);
+		t1.setBounds(350, 90, 300, 40);
 		JButton delete = new JButton("DELETE...");
-		delete.setFont(new Font("Algerian", Font.BOLD, 17));
-		delete.setBounds(60, 150, 200, 40);
+		
+		delete.setFont(new Font("Algerian", Font.BOLD, 22));
+		delete.setForeground(Color.black);
+		delete.setBounds(350, 150, 300, 40);
 
 		delete.addActionListener(new ActionListener() {
 
@@ -117,7 +122,7 @@ public static void del() {
 		
 		
 		
-		frame5.setSize(500, 700);
+	//	frame5.setSize(500, 600);
 	
 
 		frame5.add(panel);
