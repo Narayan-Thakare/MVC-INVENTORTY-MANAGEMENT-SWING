@@ -1,6 +1,8 @@
 package view;
 
 import javax.swing.*;
+
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -12,7 +14,7 @@ import Controller.*;
 
 public class Test {
 
-    public static void main(String[] args) {
+    public static void testt() {
     	
     	
     	Student s=new Student();
@@ -37,7 +39,7 @@ public class Test {
         SwingUtilities.invokeLater(() -> {
         	
             JFrame frame = new JFrame("MY INVENTORY");
-            //frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 frame.setBounds(200, 200, 1400, 800);
             // Set the size of the JFrame
           //  frame.setSize(1400, 800);
