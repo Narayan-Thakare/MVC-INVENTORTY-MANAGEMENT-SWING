@@ -28,7 +28,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.Timer;
 
 
-public class Student{
+public class Insert{
 public static void add() {
 	
 

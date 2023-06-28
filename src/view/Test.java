@@ -17,7 +17,7 @@ public class Test {
     public static void testt() {
     	
     	
-    	Student s=new Student();
+    	Insert s=new Insert();
     	Search se=new Search();
     	Update up=new Update();
     	Delete dele=new Delete();

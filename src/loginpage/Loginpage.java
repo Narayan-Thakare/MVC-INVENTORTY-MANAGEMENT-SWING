@@ -84,7 +84,7 @@ public class Loginpage {
             panel.add(ins);
             panel.add(tx);
             panel.add(lb1);
-           panel.add(passwordField);
+            panel.add(passwordField);
             panel.add(lb);
             panel.add(loginButton);
 
