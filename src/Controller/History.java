@@ -24,7 +24,7 @@ public class History {
         JTable table = new JTable();
         tableModel = new DefaultTableModel();
         table.setModel(tableModel);
-		table.setFont(new Font("algerian", Font.BOLD, 14));
+		table.setFont(new Font("algerian", Font.BOLD, 18));
 
 
         // Add columns to the table model

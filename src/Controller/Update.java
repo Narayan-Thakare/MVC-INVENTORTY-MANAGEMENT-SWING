@@ -29,7 +29,10 @@ import javax.swing.SwingUtilities;
 import javax.swing.Timer;
 
 public class Update{
-public static void updat() {
+	
+	
+	
+   public static void updat() {
 	
 	SwingUtilities.invokeLater(() -> {
 
@@ -82,7 +85,7 @@ public static void updat() {
 
 		JLabel l2 = new JLabel("PRODUCT QUANTITY");
 		l2.setFont(new Font("Algerian", Font.BOLD, 22));
-		l2.setBounds(60, 140, 300, 40);
+		l2.setBounds(50, 140, 300, 40);
 		JTextField t2 = new JTextField();
 		t2.setFont(new Font("Algerian", Font.BOLD, 17));
 		t2.setBounds(50, 180, 300, 40);
@@ -105,7 +108,7 @@ public static void updat() {
 		totalb.setBounds(60, 320, 300, 40);
 
 		JTextField lb1 = new JTextField();
-		lb1.setBounds(285, 380, 300, 40);
+		lb1.setBounds(50, 380, 300, 40);
 		lb1.setFont(new Font("Algerian", Font.BOLD, 25));
 		lb1.setForeground(Color.MAGENTA);
 

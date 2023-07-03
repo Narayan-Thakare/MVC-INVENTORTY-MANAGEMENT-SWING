@@ -6,6 +6,9 @@ import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -114,11 +117,10 @@ public static void sel() {
 		totalb.setFont(new Font("Algerian", Font.BOLD, 22));
 		totalb.setBounds(60, 320, 200, 40);
 
-		JLabel lb1 = new JLabel();
-		lb1.setBounds(285, 380, 200, 40);
+		JTextField lb1 = new JTextField();
+		lb1.setBounds(50, 380, 300, 40);
 		lb1.setForeground(Color.magenta);
-
-		lb1.setFont(new Font("Algerian", Font.BOLD, 20));
+		lb1.setFont(new Font("Algerian", Font.BOLD, 25));
 
 		totalb.addActionListener(new ActionListener() {
 
@@ -131,7 +133,35 @@ public static void sel() {
 
 			}
 		});
+//////////////////////////////////////////////
+		KeyListener keyListener = new KeyAdapter() {
+		    @Override
+		    public void keyReleased(KeyEvent e) {
+		        calculateTotalPrice();
+		    }
 
+		    private void calculateTotalPrice() {
+		        String text1 = t2.getText();
+		        String text2 = t3.getText();
+
+		        try {
+		            int number1 = Integer.parseInt(text1);
+		            int number2 = Integer.parseInt(text2);
+
+		            int sum = number1 * number2;
+
+		            lb1.setText("TOTAL AMT:" + sum);
+		        } catch (NumberFormatException ex) {
+		            lb1.setText("Invalid DATA!!!!!");
+		        }
+		    }
+		};
+
+		t2.addKeyListener(keyListener);
+		t3.addKeyListener(keyListener);
+////////////////////////////////////////
+		
+		
 		JButton update = new JButton("SELL");
 		update.setFont(new Font("Algerian", Font.BOLD, 22));
 		update.setBounds(50, 450, 200, 40);
@@ -234,7 +264,7 @@ public static void sel() {
 				} catch (SQLException e1) {
 					e1.printStackTrace();
 				}
-				try {
+			try {
 					int d = st.executeUpdate("UPDATE inv SET Perproductrate = " + rate
 							+ "  WHERE productname = '" + name + "'");
 				} catch (SQLException e1) {
@@ -273,7 +303,8 @@ public static void sel() {
 		clear.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-
+t.setText("");
+lb1.setText("");
 				t1.setText("");
 				t2.setText("");
 				t3.setText("");

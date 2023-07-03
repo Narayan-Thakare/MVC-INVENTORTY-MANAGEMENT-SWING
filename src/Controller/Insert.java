@@ -114,7 +114,7 @@ public static void add() {
 		totalb.setBounds(500, 320,  300, 40);
 
 		JTextField lb1 = new JTextField();
-		lb1.setBounds(285, 380, 200, 40);
+		lb1.setBounds(500, 380, 300, 40);
 		lb1.setFont(new Font("Algerian", Font.BOLD, 25));
 		lb1.setForeground(Color.MAGENTA);
 		
@@ -242,6 +242,7 @@ public static void add() {
 		clear.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
+				lb1.setText("");
 
 				t1.setText("");
 				t2.setText("");

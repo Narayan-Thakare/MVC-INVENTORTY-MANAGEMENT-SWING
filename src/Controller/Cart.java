@@ -109,8 +109,9 @@ public class Cart {
 			totalb.setBounds(500, 320, 300, 40);
 
 			JTextField lb1 = new JTextField();
-			lb1.setFont(new Font("Algerian", Font.BOLD, 17));
-			lb1.setBounds(600, 380, 200, 40);
+			lb1.setFont(new Font("Algerian", Font.BOLD, 22));
+			lb1.setForeground(Color.magenta);
+			lb1.setBounds(500, 380, 300, 40);
 
 			/*
 			 * class KeyCalculatorListener implements KeyListener {
@@ -228,7 +229,7 @@ public class Cart {
 			clear.addActionListener(new ActionListener() {
 				@Override
 				public void actionPerformed(ActionEvent e) {
-
+lb1.setText("");
 					t1.setText("");
 					t2.setText("");
 					t3.setText("");

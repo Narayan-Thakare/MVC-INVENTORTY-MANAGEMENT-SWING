@@ -65,7 +65,7 @@ public class Loginpage {
                     String password = new String(passwordField.getPassword());
 
                     // Check if the username and password are correct
-                    if (username.equals("narayan thakare") && password.equals("password dall")) {
+                    if (username.equals("asd") && password.equals("123")) {
                     	
                         JOptionPane.showMessageDialog(frame, "Login Successful!");
                        
