@@ -2,3 +2,4 @@
 #DATABASE TABLE
 ![Screenshot 2023-11-18 175512](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/34035224-bbd7-4e61-9355-eedccaa8dd47)
 ![Screenshot 2023-11-18 175553](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/b33ec73b-e45d-4c8f-8b78-f766d4d2880e)
+![Screenshot 2023-11-18 175619](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/af95ec08-9be6-4d96-873c-f46265899a42)
