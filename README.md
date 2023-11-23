@@ -1,5 +1,6 @@
 # MVC-INVENTORTY-MANAGEMENT-SWING
 ![Screenshot 2023-11-23 220932](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/3f59041b-8837-44d3-8a0e-c2d4819c3435)
+![Screenshot 2023-11-23 221142](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/1fef9dc4-24d5-4eb6-affd-1d1fd6f5c27e)
 
 
 
