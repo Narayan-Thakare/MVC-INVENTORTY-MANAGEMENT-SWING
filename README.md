@@ -3,6 +3,9 @@
 ![Screenshot 2023-11-23 221142](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/1fef9dc4-24d5-4eb6-affd-1d1fd6f5c27e)
 # WHEN WE CLICK ON ADD 
 ![Screenshot 2023-11-24 223702](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/81c15d53-478a-451e-ba5c-e9f2c937eb5a)
+# WHEN WE CLICK ON SEARCH
+![Screenshot 2023-11-24 224104](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/e39ff611-e78f-44df-86d3-4516b4e8187b)
+
 
 
 
