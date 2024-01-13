@@ -22,7 +22,12 @@ public class Loginpage {
                 @Override
                 protected void paintComponent(Graphics g) {
                     super.paintComponent(g);
-                    Image image = new ImageIcon("D:\\Asterics Website\\assets\\img\\camera-bg.jpg").getImage();
+                  
+                    
+                  //  Image image = new ImageIcon("D:\\Asterics Website\\assets\\img\\camera-bg.jpg").getImage();
+                    Image image = new ImageIcon("C:/Users/ASUS/OneDrive/Pictures/Screenshots/63bbca2d280184a6813575fa_inventory-management-AR0lzxPR9xCaOv0O.jpg").getImage();
+
+                    
                     g.drawImage(image, 0, 0, getWidth(), getHeight(), this);
                 }
             };
@@ -37,6 +42,8 @@ public class Loginpage {
             ins.setBounds(250, 20, 450, 40);
 
             JLabel lb = new JLabel("NAME :");
+            lb.setForeground(Color.black); // Set the font color
+
             lb.setFont(new Font("Algerian", Font.BOLD, 25));
             lb.setBounds(250, 150, 160, 40);
 
@@ -45,6 +52,8 @@ public class Loginpage {
             tx.setBounds(400, 150, 200, 40);
 
             JLabel lb1 = new JLabel("PASSWORD :");
+            lb1.setForeground(Color.black); // Set the font color
+
             lb1.setFont(new Font("Algerian", Font.BOLD, 25));
             lb1.setBounds(240, 200, 200, 40);
 
@@ -63,7 +72,7 @@ public class Loginpage {
                     String username = tx.getText();
                     String password = new String(passwordField.getPassword());
 
-                    if (username.equals("narayan thakare") && password.equals("password dall")) {
+                    if (username.equals("123") && password.equals("123")) {
                     	
                         JOptionPane.showMessageDialog(frame, "Login Successful!");
                        

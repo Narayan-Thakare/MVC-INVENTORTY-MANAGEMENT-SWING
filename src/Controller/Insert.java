@@ -45,6 +45,8 @@ public static void add() {
 			protected void paintComponent(Graphics g) {
 				super.paintComponent(g);
 				Image image = new ImageIcon("D:\\HTML\\code6575.jpg").getImage();
+			
+				
 				g.drawImage(image, 0, 0, getWidth(), getHeight(), this);
 
 			}
