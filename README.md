@@ -7,6 +7,7 @@
 
 ![Screenshot 2024-01-19 233538](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/feacdeef-fcdb-4599-bb51-ce228db62332)
 
-if u put the paswword correct login info
+If u put the paswword correct login info
 ![Screenshot 2024-01-19 233558](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/89bbc7c8-f4b5-4a26-ab11-c0d82003a874)
+
 
