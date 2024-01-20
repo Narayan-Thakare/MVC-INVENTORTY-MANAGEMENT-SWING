@@ -13,3 +13,4 @@ If u put the paswword correct login info
 ![Screenshot 2023-07-07 013832](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/bc03e361-55bd-43a3-9d47-b2cadd5cecaf)
 
 
+![Screenshot 2024-01-19 233642](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/564c3df9-7cdc-4141-b597-969792cc9130)
