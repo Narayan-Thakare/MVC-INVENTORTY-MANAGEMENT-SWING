@@ -19,7 +19,7 @@ If u click on search
 ![Screenshot 2024-01-19 233642](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/564c3df9-7cdc-4141-b597-969792cc9130)
 
 
-
+if u click on add
 ![Screenshot 2024-01-21 185207](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/8c0a0b6f-6280-44a6-b257-2362b324cbc7)
 
 ![Screenshot 2024-01-21 185228](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/9d83e8a6-3e99-4755-9499-d76148ec2e14)
