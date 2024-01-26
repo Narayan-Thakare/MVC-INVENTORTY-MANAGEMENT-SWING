@@ -8,6 +8,7 @@ data base 2
 data base 3
 ![Screenshot 2024-01-13 141453](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/2db09a99-841e-4ae0-86e3-f3e85a36f539)
 
+----------------&--
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 ![Screenshot 2024-01-19 233538](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/feacdeef-fcdb-4599-bb51-ce228db62332)
 
