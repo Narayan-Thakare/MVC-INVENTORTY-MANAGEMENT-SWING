@@ -31,6 +31,7 @@ if u click on add
 if u click on update
 ![Screenshot 2024-01-21 185228](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/9d83e8a6-3e99-4755-9499-d76148ec2e14)
 
+
 ![Screenshot 2024-01-28 205212](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/364127e8-9930-4b29-b68e-7bd212d0d74d)
 
 
