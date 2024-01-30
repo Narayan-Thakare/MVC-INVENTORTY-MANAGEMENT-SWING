@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import view.*;
+
 public class Loginpage {
 	static Test t=new Test();
 
@@ -71,7 +72,7 @@ public class Loginpage {
                 public void actionPerformed(ActionEvent e) {
                     String username = tx.getText();
                     String password = new String(passwordField.getPassword());
-
+// you set the password hear
                     if (username.equals("123") && password.equals("123")) {
                     	
                         JOptionPane.showMessageDialog(frame, "Login Successful!");
