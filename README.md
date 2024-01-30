@@ -34,5 +34,6 @@ if u click on update
 if u click on delete 
 ![Screenshot 2024-01-28 205212](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/364127e8-9930-4b29-b68e-7bd212d0d74d)
 
+
 if u click on purchase
 ![Screenshot 2024-01-28 205233](https://github.com/Narayan-Thakare/MVC-INVENTORTY-MANAGEMENT-SWING/assets/113063658/28a8d38a-b00a-4cac-9655-795aaddbf206)
