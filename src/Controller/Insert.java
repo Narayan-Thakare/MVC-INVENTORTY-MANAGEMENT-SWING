@@ -28,6 +28,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.Timer;
 
 
+
 public class Insert{
 public static void add() {
 	
